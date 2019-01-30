@@ -29,6 +29,11 @@ Node<Type> :: Node(Type data)
     this->data = data;
 }
 
+template <class type>
+Node<Type> :: Node ()
+{}
+
+
 template <class Type>
 Type Node<Type> :: setData(Type data)
 {
