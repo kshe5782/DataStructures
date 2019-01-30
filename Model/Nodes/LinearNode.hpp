@@ -6,8 +6,52 @@
 //  Copyright © 2019 Ctec. All rights reserved.
 //
 
-#ifndef LinearNode_h
-#define LinearNode_h
+#ifndef LinearNode_hpp
+#define LinearNode_hpp
+#include "Node.hpp"
+
+template <class Type>
+class linearNode : public Node<Type>
+
+{
+private:
+    LinearNode<Type> * next;
+    
+public:
+    linearNode();
+    linearNode (Type data);
+    linearNode(Type data, linearNode<Type> * next);
+    linearNode<Type> * getNext();
+    void setNext (linearNode<Type> * next);
+};
+
+template <class Type>
+linearNode<Type> :: linearNode() : Node()
+{}
+
+template <class Type>
+linearNode<Type> :: LinearNodeType data) : Node<Type>(data)
+{
+    this->next = nullptr;
+}
+
+template <class Type> linearNode<Type> :: linearNode(Type data, linearNode<Type> * next) : Node<Type>(data)
+{
+    this->next = next;
+}
+
+template <class Type>
+linearNode<Type> * linearNode<Type> :: getNext()
+{
+    treturn this->next;
+}
+
+templat<class Type>
+void linearNode<Type> :: setNext(linearNode<Type> * next)
+{
+    this->next = next;
+}
+
 
 
 #endif /* LinearNode_h */

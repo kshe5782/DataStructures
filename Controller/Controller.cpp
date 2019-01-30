@@ -11,7 +11,7 @@
 void Controller :: start()
 {
     cout << "Welcome to AstroWorld" << endl;
-    
+    usingNodes();
 }
 
 void Controller :: usingNodes()

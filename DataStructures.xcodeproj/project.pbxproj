@@ -82,6 +82,7 @@
 		685CB1CA21FF5BDE0066D1FD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				68E1ECB1220208FA001DA78A /* New Group */,
 				68E1ECB02201F0B9001DA78A /* Nodes */,
 			);
 			path = Model;
@@ -101,6 +102,13 @@
 				685CB1D121FF60D70066D1FD /* Node.hpp */,
 			);
 			path = Nodes;
+			sourceTree = "<group>";
+		};
+		68E1ECB1220208FA001DA78A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
