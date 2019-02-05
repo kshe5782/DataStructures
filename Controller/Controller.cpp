@@ -17,10 +17,10 @@ void Controller :: start()
 void Controller :: usingNodes()
 {
     Node<int> mine(5);
-    Node<String> wordHolder("blah blah blah");
+    Node<String> wordHolder("Astro World Astro World");
     cout << mine.getData() << endl;
     cout << wordHolder.getData() << endl;
-    wordHolder.setData("blah blah");
+    wordHolder.setData("Are you having a good time in Travis Scott's AstroWorld");
     cout << wordHolder.getData() << endl;
     
 }
