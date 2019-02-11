@@ -10,7 +10,7 @@
 #define Controller_hpp
 
 #include <iostream>
-#include ".../Model/Nodes/Node.hpp"
+#include "../Model/Nodes/Node.hpp"
 using namespace std;
 
 class Controller

@@ -18,7 +18,7 @@ private:
     Type Data;
 public:
     Node(Type data);
-    type getData();
+    Type getData();
     void setData(Type data);
 };
 //Template definitions
