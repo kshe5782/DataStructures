@@ -25,7 +25,14 @@ public:
     
     virtual ~LinkedList();
     
-    int getSize
+    virtual int getSize() const;
+    LinearNode<Type> * getFront();
+    LinearNode<Type> * getEnd();
+    
+    virtual void add(Type item);
+    virtual void addAtIndex(int index, Type item);
+    virtual Type getFromIndex(int index);
+    virtual Type remove(int index);
     
 }
 
