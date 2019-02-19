@@ -9,6 +9,11 @@
 #ifndef LinearTester_hpp
 #define LinearTester_hpp
 
-#include <stdio.h>
+#include "../Controller/tools/Timer.hpp"
+#include "../Controller/FileCotroller.hpp"
+
+
+#include <iostream>
+
 
 #endif /* LinearTester_hpp */
