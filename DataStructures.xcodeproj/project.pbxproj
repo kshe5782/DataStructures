@@ -37,6 +37,7 @@
 		6875BC98220C85090035F133 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		6875BC99220C941E0035F133 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		68A2BF0F2211D6A200A2C947 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
+		68B11748221EF0F0002D3E42 /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
 		68B54E85221C5679004FE620 /* LinearTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearTester.cpp; sourceTree = "<group>"; };
 		68B54E86221C5679004FE620 /* LinearTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearTester.hpp; sourceTree = "<group>"; };
 		68E1ECAF2201EECF001DA78A /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
@@ -135,6 +136,7 @@
 			children = (
 				68E1ECAF2201EECF001DA78A /* LinearNode.hpp */,
 				685CB1D121FF60D70066D1FD /* Node.hpp */,
+				68B11748221EF0F0002D3E42 /* DoubleNode.hpp */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
