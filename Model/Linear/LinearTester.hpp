@@ -12,8 +12,17 @@
 #include "../Controller/tools/Timer.hpp"
 #include "../Controller/FileCotroller.hpp"
 
-
 #include <iostream>
+
+public <class Type>
+{
+public:
+    testVsSTL;
+    testVsStack;
+    testVsQueue;
+    testVsDouble;
+
+}
 
 
 #endif /* LinearTester_hpp */
