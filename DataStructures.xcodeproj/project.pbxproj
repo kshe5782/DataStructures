@@ -29,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		681A95042232C5E000C9DDC7 /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
 		685CB1BF21FF5B540066D1FD /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		685CB1CC21FF5D960066D1FD /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
 		685CB1CD21FF5D960066D1FD /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
@@ -87,6 +88,7 @@
 		685CB1C121FF5B540066D1FD /* Diagrams */ = {
 			isa = PBXGroup;
 			children = (
+				681A95042232C5E000C9DDC7 /* Graph.hpp */,
 			);
 			path = Diagrams;
 			sourceTree = "<group>";
