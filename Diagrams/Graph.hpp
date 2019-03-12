@@ -105,7 +105,17 @@ void Graph<Type> :: addEdge(int source, int target)
 template <class Type>
 void Graph<Type> :: addEdge(int source, int target, int cost)
 {
-    
+    assert(source >= 0 && source < vertexCount && target < vertexCount);
+    weightCostMatrix[source][target] = cost;
+    weightCostMatrix[target][source] = cost;
+}
+
+template <class Type>
+void Graph<Type> :: addEdgeUndirected(int source, int target)
+{
+    assert(source >= 0 && source < vertexCount && target >= 0 && target < vertexCount);
+    adjacencyMatrix[source][target] = true;
+    adjacencyMatrix[target][source] = true;
 }
 
 
