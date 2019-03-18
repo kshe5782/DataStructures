@@ -14,6 +14,7 @@
 		68E3EE702209E5870068FDA4 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68E3EE6E2209E5870068FDA4 /* FileController.cpp */; };
 		68E3EE742209E8DE0068FDA4 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68E3EE732209E8DE0068FDA4 /* CrimeData.cpp */; };
 		68E3EE772209E9420068FDA4 /* Music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68E3EE762209E9420068FDA4 /* Music.cpp */; };
+		68F0BD28223FDB0F00713BD9 /* GraphTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68F0BD26223FDB0F00713BD9 /* GraphTester.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +53,8 @@
 		68E3EE752209E9040068FDA4 /* crime.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = crime.csv; path = ../../../../Downloads/crime.csv; sourceTree = "<group>"; };
 		68E3EE762209E9420068FDA4 /* Music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Music.cpp; path = ../../../../Downloads/Music.cpp; sourceTree = "<group>"; };
 		68E3EE782209ECDC0068FDA4 /* Music.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Music.hpp; path = ../../../../Downloads/Music.hpp; sourceTree = "<group>"; };
+		68F0BD26223FDB0F00713BD9 /* GraphTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphTester.cpp; sourceTree = "<group>"; };
+		68F0BD27223FDB0F00713BD9 /* GraphTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphTester.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				681A95042232C5E000C9DDC7 /* Graph.hpp */,
+				68F0BD26223FDB0F00713BD9 /* GraphTester.cpp */,
+				68F0BD27223FDB0F00713BD9 /* GraphTester.hpp */,
 			);
 			path = Diagrams;
 			sourceTree = "<group>";
@@ -223,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68E3EE6D2209DDF60068FDA4 /* Timer.cpp in Sources */,
+				68F0BD28223FDB0F00713BD9 /* GraphTester.cpp in Sources */,
 				68E3EE742209E8DE0068FDA4 /* CrimeData.cpp in Sources */,
 				685CB1CE21FF5D960066D1FD /* Controller.cpp in Sources */,
 				68E3EE772209E9420068FDA4 /* Music.cpp in Sources */,
