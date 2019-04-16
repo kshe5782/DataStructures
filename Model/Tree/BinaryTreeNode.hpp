@@ -6,8 +6,8 @@
 //  Copyright © 2019 Ctec. All rights reserved.
 //
 
-#ifndef BinaryTreeNode_h
-#define BinaryTreeNode_h
+#ifndef BinaryTreeNode_hpp
+#define BinaryTreeNode_hpp
 
 #include "Node.hpp"
 
@@ -86,4 +86,4 @@ BinaryTreeNode<Type> * BinaryTreeNode<Type> :: getLeftChild()
 
 };
 
-#endif /* BinaryTreeNode_h */
+#endif /* BinaryTreeNode_hpp */

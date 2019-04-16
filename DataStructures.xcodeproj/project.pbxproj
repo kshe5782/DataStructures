@@ -55,7 +55,8 @@
 		68E3EE782209ECDC0068FDA4 /* Music.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Music.hpp; path = ../../../../Downloads/Music.hpp; sourceTree = "<group>"; };
 		68F0BD26223FDB0F00713BD9 /* GraphTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphTester.cpp; sourceTree = "<group>"; };
 		68F0BD27223FDB0F00713BD9 /* GraphTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphTester.hpp; sourceTree = "<group>"; };
-		68F9967922661BC600BFE794 /* BinaryTreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTreeNode.h; sourceTree = "<group>"; };
+		68F9967922661BC600BFE794 /* BinaryTreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeNode.hpp; sourceTree = "<group>"; };
+		68F9967A2266201C00BFE794 /* BinaryTreeTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeTester.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,7 +177,8 @@
 		68F9967822661B9200BFE794 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
-				68F9967922661BC600BFE794 /* BinaryTreeNode.h */,
+				68F9967922661BC600BFE794 /* BinaryTreeNode.hpp */,
+				68F9967A2266201C00BFE794 /* BinaryTreeTester.hpp */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
