@@ -55,6 +55,7 @@
 		68E3EE782209ECDC0068FDA4 /* Music.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Music.hpp; path = ../../../../Downloads/Music.hpp; sourceTree = "<group>"; };
 		68F0BD26223FDB0F00713BD9 /* GraphTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphTester.cpp; sourceTree = "<group>"; };
 		68F0BD27223FDB0F00713BD9 /* GraphTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphTester.hpp; sourceTree = "<group>"; };
+		68F9967922661BC600BFE794 /* BinaryTreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTreeNode.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +115,7 @@
 		685CB1CA21FF5BDE0066D1FD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				68F9967822661B9200BFE794 /* Tree */,
 				6875BC97220C84E60035F133 /* Linear */,
 				68E1ECB02201F0B9001DA78A /* Nodes */,
 			);
@@ -169,6 +171,14 @@
 				68E3EE722209E8C80068FDA4 /* CrimeData.hpp */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		68F9967822661B9200BFE794 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				68F9967922661BC600BFE794 /* BinaryTreeNode.h */,
+			);
+			path = Tree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
