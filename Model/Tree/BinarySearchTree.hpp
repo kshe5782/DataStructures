@@ -58,5 +58,58 @@ public:
     Type findMaximum();
 }
 
+template <class Type>
+int BinaryTreeNode<Type> :: getSize()
+{
+    return -1
+}
+
+template <class Type>
+bool BinaryTreeNode<Type> :: isComplete()
+{
+    return false;
+}
+
+template <class Type>
+bool BinaryTreeNode<Type> :: isBalanced()
+{
+    return false;
+}
+
+template <class Type>
+void BinaryTreeNode<Type> :: inOrderTraversal()
+{
+    
+}
+
+template <class Type>
+void BinaryTreeNode<Type> :: preOrderTraversal()
+{
+    
+}
+
+template <class Type>
+void BinaryTreeNode<Type> :: postOrderTraversal()
+{
+    
+}
+
+template <class Type>
+void BinaryTreeNode<Type> :: insert(Type item)
+{
+}
+
+template <class Type>
+bool BinaryTreeNode<Type> :: contains(Type value)
+{
+    return false;
+}
+
+template <class Type>
+void BinaryTreeNode<Type> :: remove(Type item)
+{
+}
+
+
 
 #endif /* BinarySearchTree_hpp */
