@@ -109,7 +109,7 @@ template <class Type>
 void BinaryTreeNode<Type> :: remove(Type item)
 {
 }
-
+};
 
 
 #endif /* BinarySearchTree_hpp */
