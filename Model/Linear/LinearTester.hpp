@@ -9,7 +9,7 @@
 #ifndef LinearTester_hpp
 #define LinearTester_hpp
 
-#include "../Controller/tools/Timer.hpp"
+#include "../Controller/Timer.hpp"
 #include "../Controller/FileCotroller.hpp"
 
 #include <iostream>

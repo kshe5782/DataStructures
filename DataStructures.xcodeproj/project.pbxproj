@@ -105,7 +105,8 @@
 		685CB1C921FF5BD30066D1FD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				68E3EE6A2209DD9B0068FDA4 /* tools */,
+				68E3EE6C2209DDF60068FDA4 /* Timer.hpp */,
+				68E3EE6B2209DDF60068FDA4 /* Timer.cpp */,
 				685CB1CC21FF5D960066D1FD /* Controller.cpp */,
 				685CB1CD21FF5D960066D1FD /* Controller.hpp */,
 				685CB1CF21FF5EBA0066D1FD /* Runner.cpp */,
@@ -153,15 +154,6 @@
 				68B11748221EF0F0002D3E42 /* DoubleNode.hpp */,
 			);
 			path = Nodes;
-			sourceTree = "<group>";
-		};
-		68E3EE6A2209DD9B0068FDA4 /* tools */ = {
-			isa = PBXGroup;
-			children = (
-				68E3EE6B2209DDF60068FDA4 /* Timer.cpp */,
-				68E3EE6C2209DDF60068FDA4 /* Timer.hpp */,
-			);
-			path = tools;
 			sourceTree = "<group>";
 		};
 		68E3EE712209E7620068FDA4 /* Data */ = {
