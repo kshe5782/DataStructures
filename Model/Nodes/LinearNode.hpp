@@ -43,10 +43,10 @@ template <class Type> linearNode<Type> :: linearNode(Type data, linearNode<Type>
 template <class Type>
 linearNode<Type> * linearNode<Type> :: getNextNode()
 {
-    treturn this->next;
+    return this->next;
 }
 
-templat<class Type>
+template <class Type>
 void linearNode<Type> :: setNextNode(linearNode<Type> * next)
 {
     this->next = next;
